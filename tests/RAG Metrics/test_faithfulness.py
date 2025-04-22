@@ -6,6 +6,7 @@ from deepeval.test_case import LLMTestCase
 from utils.LLMUtils import get_response_from_llm
 from utils.TestDataUtils import load_data_sets
 
+
 # Terminology
 # - Faithfulness: The degree to which the answer provided by the LLM is faithful to the input question.
 # - Threshold: A score above which the answer is considered faithful.
@@ -24,12 +25,6 @@ def test_faithfulness(build_test_case, model_name, expected_threshold):
     assert faithfulness_metric.score >= expected_threshold, (
         f"Score {faithfulness_metric.score:.2f} below threshold {expected_threshold}. Reason: {faithfulness_metric.reason}"
     )
-
-
-@pytest.fixture
-def expected_threshold(request):
-    test_data = request.param
-    return test_data["expected_threshold"]
 
 
 @pytest.fixture

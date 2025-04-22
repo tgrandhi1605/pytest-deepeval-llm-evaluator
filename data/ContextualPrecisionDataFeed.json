@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the tallest mountain in the world?",
+    "reference": "Mount Everest",
+    "expected_threshold": 0.84
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "reference": "Alexander Fleming",
+    "expected_threshold": 0.88
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "reference": "Yen",
+    "expected_threshold": 0.81
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "reference": "H2O",
+    "expected_threshold": 0.9
+  },
+  {
+    "question": "Who is known as the father of computers?",
+    "reference": "Charles Babbage",
+    "expected_threshold": 0.86
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "reference": "2",
+    "expected_threshold": 0.78
+  },
+  {
+    "question": "What is the national animal of India?",
+    "reference": "Tiger",
+    "expected_threshold": 0.83
+  },
+  {
+    "question": "What is the freezing point of water in Fahrenheit?",
+    "reference": "32",
+    "expected_threshold": 0.87
+  },
+  {
+    "question": "Who developed the theory of relativity?",
+    "reference": "Albert Einstein",
+    "expected_threshold": 0.89
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "reference": "Pacific Ocean",
+    "expected_threshold": 0.85
+  }
+]

@@ -47,7 +47,3 @@ def build_test_case(request):
     return test_case
 
 
-@pytest.fixture
-def expected_threshold(request):
-    test_data = request.param
-    return test_data["expected_threshold"]

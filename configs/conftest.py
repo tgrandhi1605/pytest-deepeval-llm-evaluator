@@ -18,3 +18,8 @@ class ModelName(Enum):
 def model_name():
     # Default to GPT-4
     return ModelName.GPT_4.value
+
+@pytest.fixture
+def expected_threshold(request):
+    test_data = request.param
+    return test_data["expected_threshold"]
