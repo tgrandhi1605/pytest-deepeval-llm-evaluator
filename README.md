@@ -1,4 +1,4 @@
-# pytest-rag-llm-evaluator
+# pytest-deepeval-llm-evaluator
 
 This repository provides a Pytest-based framework designed to evaluate Retrieval-Augmented Generation (RAG) based Large Language Models (LLMs). This tool helps developers and researchers validate the performance, accuracy, and reliability of custom LLM architectures using structured tests and industry-standard metrics.
 
@@ -9,7 +9,7 @@ This framework enables end-to-end evaluation of [RAG](https://blogs.nvidia.com/b
 * 	Augmentation Modules
 * 	Generation Modules
 
-It integrates with the RAGAS library, OpenAI, and Langchain to deliver actionable insights on LLM performance.
+It integrates with the DeepEval library, OpenAI, and Langchain to deliver actionable insights on LLM performance.
 
 ## ⚙️ Tech stack
 1. [Python](https://www.python.org/downloads/)
