@@ -1,0 +1,57 @@
+[
+  {
+    "question": "How many articles are there in selenium webdriver python course?",
+    "reference": "23",
+    "expected_threshold": 0.75
+  },
+  {
+    "question": "What is the capital of France?",
+    "reference": "Paris",
+    "expected_threshold": 0.85
+  },
+  {
+    "question": "How many planets are in the solar system?",
+    "reference": "8",
+    "expected_threshold": 0.78
+  },
+  {
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "reference": "Harper Lee",
+    "expected_threshold": 0.8
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "reference": "100",
+    "expected_threshold": 0.9
+  },
+  {
+    "question": "What is the largest mammal on Earth?",
+    "reference": "Blue Whale",
+    "expected_threshold": 0.82
+  },
+  {
+    "question": "What is the speed of light in m/s?",
+    "reference": "299792458",
+    "expected_threshold": 0.88
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "reference": "Leonardo da Vinci",
+    "expected_threshold": 0.87
+  },
+  {
+    "question": "What is the square root of 64?",
+    "reference": "8",
+    "expected_threshold": 0.76
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "reference": "Au",
+    "expected_threshold": 0.79
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "reference": "7",
+    "expected_threshold": 0.83
+  }
+]
