@@ -36,7 +36,7 @@ def build_test_case(request):
     retrieved_contexts = [doc["page_content"] for doc in response_from_rag_llm["retrieved_docs"]]
 
     test_case = LLMTestCase(
-        input=test_data["input"],
+        input=test_data["question"],
         expected_output=test_data["reference"],  # reference is the expected output from test_data
         actual_output=response_from_rag_llm["answer"],
         retrieval_context=retrieved_contexts

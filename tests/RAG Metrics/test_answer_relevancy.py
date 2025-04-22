@@ -40,7 +40,7 @@ def build_test_case(request):
     response_from_rag_llm = get_response_from_llm(test_data)
 
     test_case = LLMTestCase(
-        input=test_data["input"],
+        input=test_data["question"],
         actual_output=response_from_rag_llm["answer"]
     )
 

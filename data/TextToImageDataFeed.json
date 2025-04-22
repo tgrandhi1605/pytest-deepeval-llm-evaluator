@@ -1,0 +1,7 @@
+[
+  {
+    "question": "A cat sitting on a mat",
+    "reference": "https://example.com/cat_on_mat.png",
+    "expected_threshold": 0.8
+  }
+]
